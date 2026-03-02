@@ -1,49 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Name - IT Professional</title>
+    <meta charset="UTF-8">
+    <title>Jacob | IT & Cybersecurity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial;
-            background-color: #111;
-            color: #00ffcc;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            background: #0a0f1c;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        header {
             text-align: center;
-            padding: 50px;
+            padding: 120px 20px;
+            background: linear-gradient(135deg, #1e3a8a, #0f172a);
         }
-        h1 {
-            font-size: 48px;
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
         }
-        .box {
-            background: #222;
+
+        section {
+            padding: 60px 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid royalblue;
+            padding-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: royalblue;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
             padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
+            background: #0a0f1c;
         }
     </style>
 </head>
+
 <body>
 
-    <h1>Your Name</h1>
-    <h2>Future Network / Cyber Professional</h2>
-
-    <div class="box">
-        <h3>Certifications</h3>
-        <p>CompTIA A+</p>
-        <p>Network+</p>
-        <p>Security+</p>
+<nav>
+    <div><strong>Jacob</strong></div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </div>
+</nav>
 
-    <div class="box">
-        <h3>Projects</h3>
-        <p>Built pfSense Firewall Lab</p>
-        <p>Configured VLAN Network with Aruba Switch</p>
-        <p>Active Directory Domain Setup</p>
-    </div>
+<header>
+    <h1>IT & Cybersecurity Enthusiast</h1>
+    <p>CompTIA A+ Certified | Networking | Systems | Tech Builder</p>
+    <a href="#contact" class="btn">Connect With Me</a>
+</header>
 
-    <div class="box">
-        <h3>Contact</h3>
-        <p>Email: your@email.com</p>
-    </div>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I'm Jacob, a cybersecurity and IT professional passionate about building secure systems, 
+        solving technical problems, and developing real-world tech solutions. 
+        I’m currently expanding my knowledge in networking and cybersecurity while building projects 
+        that strengthen my skills in infrastructure and automation.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <p>
+        • CompTIA A+ Certified <br>
+        • PC Building & Hardware Diagnostics <br>
+        • Networking Fundamentals <br>
+        • Windows & Linux Systems <br>
+        • Troubleshooting & System Optimization
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>
+        • Custom PC Builds for Clients <br>
+        • Tech Deal Alert Bot <br>
+        • Cybersecurity Learning Labs <br>
+        • Website Development Projects
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>
+        Email: your@email.com <br>
+        GitHub: github.com/yourusername
+    </p>
+</section>
+
+<footer>
+    © 2026 Jacob | Built with HTML & GitHub Pages
+</footer>
 
 </body>
 </html>
